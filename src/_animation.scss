@@ -1,0 +1,35 @@
+// Animation classes
+//------------------------------------------------------------------------------
+.animation-circle:hover {
+    @include create-transition();
+    border-radius: 50% !important;
+}
+
+.animation-flat:hover {
+    @include create-transition();
+    border-radius: 0% !important;
+}
+
+.animation-leaf:hover {
+    @include create-transition();
+    border-radius: 50% 0 50% 0 !important;
+}
+
+.animation-rotate:hover {
+    @include create-transition();
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.animation-flip:hover {
+    @include create-transition();
+    transform: translateX(0%) rotateY(-360deg);
+}
+
+.animation-bounce:hover {
+    @include create-transition();
+    transform: translateY(-5px);
+}

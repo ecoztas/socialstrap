@@ -1,0 +1,36 @@
+// Create social media buttons
+// -----------------------------------------------------------------------------
+@mixin create-buttons($color) {
+    height: $size;
+    width: $size;
+    line-height: $size;
+    font-size: $size / 2;
+    margin: $margin;
+    display: $display;
+    overflow: $overflow;
+    position: $position;
+    text-align: $text-align;
+    border: $border;
+    border-radius: $border-radius;
+    color: #{$white} !important;
+    background-color: #{$color} !important;
+}
+
+// Create transitions
+// -----------------------------------------------------------------------------
+@mixin create-transition() {
+    transition: $transition !important;
+    -webkit-transition: $transition !important;
+    -moz-transition: $transition !important;
+    -ms-transition: $transition !important;
+    -o-transition: $transition !important;
+}
+
+// Create button sizes
+// -----------------------------------------------------------------------------
+@mixin create-sizes($size) {
+    height: $size;
+    width: $size;
+    line-height: $size;
+    font-size: $size / 2;
+}

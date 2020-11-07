@@ -1,0 +1,17 @@
+{
+  "name": "socialstrap",
+  "version": "1.0.0",
+  "description": "Social media icons.",
+  "main": "index.js",
+  "repository": "https://github.com/ecoztas/socialstrap",
+  "author": "ÖZTAŞ, Emre Can <me@emrecanoztas.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
