@@ -1,11 +1,9 @@
 /**
- * Social media icons.
+ * SocialStrap
  *
  *
  *
- * @package     socialstrap
- * @author      ÖZTAŞ, Emre Can <me@emrecanoztas.com>
- * @copyright   2020
+ * @author      Emre Can ÖZTAŞ <me@emrecanoztas.com>
  * @license     MIT
  * @link        https://github.com/ecoztas/socialstrap
  * @since       v1.0

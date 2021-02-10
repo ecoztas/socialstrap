@@ -1,5 +1,11 @@
-// Social buttons
-//------------------------------------------------------------------------------
+/**
+ * Button Classes
+ *
+ * @author  Emre Can ÖZTAŞ <me@emrecanoztas.com>
+ */
+
+// Create buttons
+// =============================================================================
 @each $name, $color in $colors {
     .btn-#{$name} {
         @include create-buttons($color);
@@ -11,35 +17,28 @@
         }
     }
 }
-
 // Button sizes
-// -----------------------------------------------------------------------------
+// =============================================================================
 .size-xsmall {
     @include create-sizes($size-xsmall);
 }
-
 .size-small {
     @include create-sizes($size-small);
 }
-
 .size-large {
     @include create-sizes($size-large);
 }
-
 .size-xlarge {
     @include create-sizes($size-xlarge);
 }
-
 // Button shapes
-// -----------------------------------------------------------------------------
+// =============================================================================
 .shape-circle {
     border-radius: 50% !important;
 }
-
 .shape-flat {
     border-radius: 0% !important;
 }
-
 .shape-leaf {
     border-radius: 50% 0 50% 0 !important;
 }

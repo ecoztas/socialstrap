@@ -1,5 +1,11 @@
-// Create social media buttons
-// -----------------------------------------------------------------------------
+/**
+ * Mixins
+ *
+ * @author  Emre Can ÖZTAŞ <me@emrecanoztas.com>
+ */
+
+// Create Buttons
+// =============================================================================
 @mixin create-buttons($color) {
     height: $size;
     width: $size;
@@ -14,23 +20,22 @@
     border-radius: $border-radius;
     color: #{$white} !important;
     background-color: #{$color} !important;
+    text-decoration: none !important;
 }
-
-// Create transitions
-// -----------------------------------------------------------------------------
+// Create Button Sizes
+// =============================================================================
+@mixin create-sizes($size) {
+    height: $size;
+    width: $size;
+    line-height: $size;
+    font-size: $size / 2;
+}
+// Create Button Transition
+// =============================================================================
 @mixin create-transition() {
     transition: $transition !important;
     -webkit-transition: $transition !important;
     -moz-transition: $transition !important;
     -ms-transition: $transition !important;
     -o-transition: $transition !important;
-}
-
-// Create button sizes
-// -----------------------------------------------------------------------------
-@mixin create-sizes($size) {
-    height: $size;
-    width: $size;
-    line-height: $size;
-    font-size: $size / 2;
 }

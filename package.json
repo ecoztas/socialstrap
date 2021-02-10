@@ -1,10 +1,10 @@
 {
   "name": "socialstrap",
   "version": "1.0.0",
-  "description": "Social media icons.",
+  "description": "Social Media İcons",
   "main": "index.js",
   "repository": "https://github.com/ecoztas/socialstrap",
-  "author": "ÖZTAŞ, Emre Can <me@emrecanoztas.com>",
+  "author": "Emre Can ÖZTAŞ <me@emrecanoztas.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {

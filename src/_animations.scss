@@ -1,20 +1,29 @@
-// Animation classes
-//------------------------------------------------------------------------------
+/**
+ * Animation Classes
+ *
+ * @author  Emre Can ÖZTAŞ <me@emrecanoztas.com>
+ */
+
+// Circle
+// =============================================================================
 .animation-circle:hover {
     @include create-transition();
     border-radius: 50% !important;
 }
-
+// Flat
+// =============================================================================
 .animation-flat:hover {
     @include create-transition();
     border-radius: 0% !important;
 }
-
+// Leaf
+// =============================================================================
 .animation-leaf:hover {
     @include create-transition();
     border-radius: 50% 0 50% 0 !important;
 }
-
+// Rotate
+// =============================================================================
 .animation-rotate:hover {
     @include create-transition();
     -webkit-transform: rotate(360deg);
@@ -23,12 +32,14 @@
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
+// Flip
+// =============================================================================
 .animation-flip:hover {
     @include create-transition();
     transform: translateX(0%) rotateY(-360deg);
 }
-
+// Bounce
+// =============================================================================
 .animation-bounce:hover {
     @include create-transition();
     transform: translateY(-5px);
